@@ -1,0 +1,22 @@
+generate;python function.py;47.8295760155
+analyze;python function.py;19.0798358917
+generate;python3 function.py;68.9997050762
+analyze;python3 function.py;11.0526101589
+generate;pypy function.py;7.44267392159
+analyze;pypy function.py;9.94811701775
+generate;nuitka --recurse-none function_nuitka_rnone.py;3.0155339241
+analyze;nuitka --recurse-none function_nuitka_rnone.py;3.17491483688
+generate;./function_nuitka_rnone.exe;43.6764039993
+analyze;./function_nuitka_rnone.exe;14.8688528538
+generate;nuitka --recurse-all function_nuitka_rall.py;2.75042009354
+analyze;nuitka --recurse-all function_nuitka_rall.py;5.17415499687
+generate;./function_nuitka_rall.exe;41.1149680614
+analyze;./function_nuitka_rall.exe;14.4059960842
+generate;mv tmp_function_source.pyx function_source.pyx;0.0100119113922
+analyze;mv tmp_function_source.pyx function_source.pyx;0.00626516342163
+generate;python function_build.py build_ext --inplace;1.41865181923
+analyze;python function_build.py build_ext --inplace;1.1913189888
+generate;mv function_source.pyx tmp_function_source.pyx;0.00502800941467
+analyze;mv function_source.pyx tmp_function_source.pyx;0.0049159526825
+generate;python function_cython.py;38.3782610893
+analyze;python function_cython.py;13.9667351246
